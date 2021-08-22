@@ -1,0 +1,26 @@
+.demo1{
+    color: rgb(38, 0, 255);
+    background-color: rgba(169, 169, 169, 0.219);
+    
+}
+.demo2{
+    border: 12px solid green;
+    width: 450px;
+    background-color: yellowgreen ;
+    margin-top: 40px 40 px;
+    padding-left: 23px;
+    border-radius: 13px;
+    margin-left: 25%;
+   }
+   .demo3{
+       margin-left: 15%;
+       background-color: rgb(192, 209, 198);
+        height:"30%";
+   }
+   table thead{
+       background-color: magenta;
+       color: white;
+       font-size: 20px;
+       padding: 7px;
+       font-style: italic;
+   }

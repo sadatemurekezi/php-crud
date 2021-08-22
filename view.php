@@ -9,9 +9,12 @@ include 'connect.php'
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" Type="text/css"  href="viewstyle.css"/>
 </head>
-<body>
-    <table border="2">
+<body class="demo1">
+    <marque direction="right"> <h1 class="demo2"> Registered Students</h1></marquee>
+    <table border="2"    width="900px"; class="demo3">
+        <thead>
     <tr>
         <td>Id</td>
         <td>Name</td>
@@ -21,6 +24,7 @@ include 'connect.php'
         <td>Action</td>
         <td>Action</td>
     </tr>
+    </thead>
     <?php
     $sql = "SELECT id,Name,Surname,Email,Contact from mahoro";
     $result = mysqli_query($conn,$sql);
