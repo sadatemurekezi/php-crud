@@ -7,7 +7,7 @@ if(isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['email']) &
     $email = $_POST['email'];
     $contact = $_POST['contact'];
  $sql = "INSERT INTO mahoro(Name,Surname,Email,Contact) VALUES ('$name', '$surname', '$email','$contact')";
- $result = mysqli_query($conn, $sql);
+ $result = mysqli_query($conn ,$sql);
  if ($result) {
      echo "New record created successfully";
    } else {

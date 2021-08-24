@@ -16,3 +16,7 @@ input[type=text]{
 background-color: white;
 border-bottom: 2px solid red;
 }
+
+.myform{
+    margin-left: 20% !important;
+}
